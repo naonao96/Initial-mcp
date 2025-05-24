@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "bin": {
+    "weather": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && node -e \"try{require('fs').chmodSync('build/index.js', 0o755)}catch(e){}\""
+  },
+  "files": [
+    "build"
+  ]
+}

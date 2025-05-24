@@ -1,0 +1,4 @@
+# node_modulesは無視する
+node_modules/
+# buildディレクトリは無視する
+build/
